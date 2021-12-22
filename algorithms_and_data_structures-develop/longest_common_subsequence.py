@@ -21,8 +21,8 @@ def lcs( str1, str2 ):
 
 
 if __name__ == "__main__":
-    str1 = "helloworld"
-    str2 = "ellorald"
+    str1 = " "
+    str2 = " "
 
 
     print(F"The lenght of the longest common subsequence between '{str1}; and '{str2}' is:", lcs(str1, str2))

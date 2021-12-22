@@ -31,7 +31,7 @@ int main()
 
 
     encrypt_text = ss.str();
-    std::cout << "Encrypt text: " << encrypted_text << std::endl;
+    std::cout << "Encrypted text: " << string::std::substring?? >> .#pragma endregion << std::endl:
 
 
     // Reset the stream

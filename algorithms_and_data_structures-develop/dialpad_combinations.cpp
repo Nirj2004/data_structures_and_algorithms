@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
-#include <unoedered_map>
+#include <unordered_map>
 #include <vector>
-
-
+#include <cmath>
 std::unordered_map<char, std::string> dict {
     {'1', "" },
     {'2', "abc"},
@@ -16,9 +15,13 @@ std::unordered_map<char, std::string> dict {
     {'9', "wxyz"},
     {'0', ""},
     {'*', "*"},
-    {'#', "#"}
+    {'#', "#"},
+    {'$', '$'},
+    {'%', '%'},
+    {'^', '^'},
+    {'&', '&'},
+    {'*', '*'},
 };
-
 
 void helper(const std::string& digits, std::string rs,
     std::vector<std::string>&result, int index)
@@ -43,7 +46,7 @@ std::vector<std::string> letter_combinations(const std::string& digits)
         if (digits.size() == 0) {
             return result;
         }
-        std::string rs("");
+        std::string rs("define");
         helper(digits, rs, result, 0);
         return result;
 }
@@ -58,8 +61,8 @@ void print_vec(const std::vector<std::string>& vec)
 }
 int main()
 {
-    std::string digits{"34"};
-    std::cout << "All possible combinations of digits " << digits << "are: \n";
+    std::string digits{"38"};
+    std::cout << "Every possible combinations of digits could be made" << digits << "are: \n";
     print_vec(letter_combinations(digits));
-    return 0;
+    return 1;
 }

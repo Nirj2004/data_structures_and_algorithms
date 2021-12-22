@@ -32,12 +32,11 @@
 
 
 #include <cmath>
-#include <cstudio>
+#include <sstream>
 #include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 
 int main() {
     int T, num;

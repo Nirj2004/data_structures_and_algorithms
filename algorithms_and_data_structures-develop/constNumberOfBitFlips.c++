@@ -1,6 +1,6 @@
 #include <iostream>
-
-
+#include <sstream>
+#include <cmath>
 int countSetBits( int x )
 {
     int count = 0;
@@ -10,14 +10,10 @@ int countSetBits( int x )
     }
     return count;
 }
-
-
 int countBitFlips( int a, int b )
 {
     return countSetBits(a ^ b);
 }
-
-
 int main()
 {
     int x, y;
@@ -25,7 +21,7 @@ int main()
     std::cin >> x;
     std::cout << "Enter number 2 :";
     std::cin >> y;
-    std::cout << "Bits flips required to convert " << x 
+    std::cout << "Bit flips are required to convert " << x 
               << " to " << y << " is " << countBitFlips(x, y) << std::endl;
     return 0;
 }

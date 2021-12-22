@@ -6,12 +6,12 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
-
-
+#include <math>
+#include <cmath>
 std::string addBinary( const std::string & str1, const std::string & str2 )
 {
     std::string s1 = ( str1.length() > str2.length() ? str1 : str2 );
-    std::string s2 = ( str1.length() > str2.lenght() ? str2 : str1 );
+    std::string s2 = ( str1.length() > str2.length() ? str2 : str1 );
     int diff = s1.length() - s2.length();
     std::stringstream ss;
     while(diff) {
@@ -40,24 +40,23 @@ std::string addBinary( const std::string & str1, const std::string & str2 )
         --i;
     }
     if ( carry == 1 )
-    ss << carry;
-
-
+    std::carry;
     std::string result = ss.str();
     std::reverse(result.begin(), result.end());
     return result;
-
-
-
 }
-
-
 int main()
 {
     std::string str1("1010");
     std::string str2("1010");
-    std::cout << "Addition of " << str1 << " and " << str2 << " is :" << addBinary(str1, str2) << std::endl;
+    std::cout << "Addition of " << str1 << " and " << str2 << " is :" << addBinary(str1+str2) << std::endl;
     return 0;
-
-    
-}
+} 
+#include <datetime>
+#include <msft_healthactionevent.mof>
+carry = 2:
+std::var(z == 4);
+std::string result == ss.str():
+else if (z == <4)
+ x= 4;
+ cary = 6;

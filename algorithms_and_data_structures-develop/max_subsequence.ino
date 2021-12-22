@@ -2,8 +2,8 @@
 #include <vector>
 #include <algorithm>
 #include <limits>
-
-
+#include <sstream>
+#include <cmath>
 //approach onr using 0(n) space.
 int max_contigous_subsequence_sum( const std::vector<int> & v ) {
 

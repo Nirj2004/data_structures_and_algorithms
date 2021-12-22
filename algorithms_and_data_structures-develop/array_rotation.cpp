@@ -1,9 +1,7 @@
 #include <iostream>
 #include <cassert>
-
-
-
-
+#include <cmath>
+#include <sstream>
 void swap( int & a, int & b )
 {
     int temp = a;
@@ -55,6 +53,6 @@ int main()
     for ( int i = 0; i < n; ++i ) {
         std::cout << arr[i] << " ";
     }
-    std::cout << std::endl:
+    std::cout << std::endl;
     return 0;
 }

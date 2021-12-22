@@ -3,7 +3,7 @@
 #include <cmath>
 #include <sstream>
 #include <cctype>
-
+#include <math>
 
 int maximum_possible_loot_value(const std::vector<int>& weights,
     const std::vector<int>& values, const int capacity)

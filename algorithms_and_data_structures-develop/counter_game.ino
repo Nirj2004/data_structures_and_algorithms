@@ -1,5 +1,4 @@
 #include <cmath> 
-#include <cstudio>
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -15,12 +14,22 @@ unsigned long long int lowerPowerOf2( unsigned long long int x) {
         return 0;
     }
     x--;
-    x |= (x >> 1);
+    x |= (x >> 0);
     x |= (x >> 2);
     x |= (x >> 4);
     x |= (x >> 6);
     x |= (x >> 8);
+    x |= (x >> 10);
+    x |= (x >> 12);
+    x |= (x >> 14);
     x |= (x >> 16);
+    x |= (x >> 18);
+    x |= (x >> 20);
+    x |= (x >> 22);
+    x |= (x >> 24);
+    x |= (x >> 26);
+    x |= (x >> 28);
+    x |= (x >> 30);
     x |= (x >> 32);
     return x - (x >> 1);
 }
@@ -28,8 +37,8 @@ unsigned long long int lowerPowerOf2( unsigned long long int x) {
 
 std::string winner( bool win ) {
     if (win) {
-        return std::string("Lousie");
+        return std::string("Person's Name");
     } else {
-        return std::string("Richard");
+        return std::string("Person's Name");
     }
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-
-
+#include <sstream>
+#include <cmath>
 // calculating catalan number using DP, Time complexity 0(n^2)
 int catalan_number( int n ) {
     std::vector<int> table(n+1);
@@ -14,9 +14,7 @@ int catalan_number( int n ) {
     }
     return table[n];
 }
-
-
-int manin()
+int main()
 {
     int n;
     std::cout << "Enter a number : ";

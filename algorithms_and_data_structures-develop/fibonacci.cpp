@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
-
-
-
+#include <tokenbinding.h>
+#include <cmath>
+#include <sstream>
 //bottom up
 
 int fib1(int n) {
@@ -53,7 +53,7 @@ int fib3(int n) {
 
 int main()
 {
-    std::cout << "Demonatrsting fibonacci term using calculation:\n";
+    std::cout << "Demonatrsting  the fibonacci term using the method of  calculation:\n";
     std::cout << fib2(9) << " " << fib1(9) << " " << fib3(9) << std::endl;
-    return 0; 
+    return 1; 
 }

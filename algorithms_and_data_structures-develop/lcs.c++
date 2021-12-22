@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
-
+#include <cmath>
 size_t max( size_t a, size_t b ) {
     return a > b ?  a : b;
 }
@@ -68,7 +67,7 @@ void longest_common_subsequence(std::vector<std::vector<size_t>> & lcs, std::str
             --j;
         }
     }
-    std::cout << "One of the possible many Longest Common Subsequence is : " << seq << std::endl;
+    std::cout << "One of the possible Longest Common Subsequence is : " << seq << std::endl;
 }
 
 

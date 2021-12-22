@@ -19,6 +19,6 @@ int main()
 {
     int x = 21474783640;
     int y = 10;
-    std::cout << "Sum of  " << x << " and " << y << " causes integer overflow :"
-              << (integerOverflow( x, y ) ? "true\n":"false\n");
+    std::cout << "Sum of  " << x << " and " << y << " causes the integer to overflow :"
+              << (integerOverflow( x, y ) ? "True\n":"False\n");
 }

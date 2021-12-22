@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <cmath>
+#include <sstream>
 int multiply_by_7( int number )
 {
     return ((number << 3) - number);
